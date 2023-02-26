@@ -1,5 +1,5 @@
 import { QueryClient } from '@tanstack/react-query'
 
-const CentralAdminQueryClient = new QueryClient()
+const queryClient = new QueryClient()
 
-export { CentralAdminQueryClient }
+export { queryClient }
